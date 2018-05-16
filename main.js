@@ -5,18 +5,17 @@ const crypto = require('crypto');
 const argv = yargs.argv
 const op = argv._[0];
 
+console.log("\nSkyVault - 1.0.1")
+console.log("\nCreated by: Aakash Pandey\n");
+
 if(!argv.file || !argv.key ) {
-    console.log('\n To Encrypt: [vault / v / ] --file=file.ext --key=secret-key');
-    console.log('\n To Decrypt: [unvault / uv ] --file=file.ext --key=secret-key\n');
+    console.log(' To Encrypt: [vault / v / ] --file=file.ext --key=secret-key\n');
+    console.log(' To Decrypt: [unvault / uv ] --file=file.ext --key=secret-key\n');
     process.exit();
 }
 
 var file = argv.file;
 const key = String(argv.key);
-
-
-console.log("\nSkyVault - 1.0.1")
-console.log("\nCreated by: aakash.pandey@live.com\n");
 
 fs.stat(file, (e) => {
     if(e) {
