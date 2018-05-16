@@ -1,12 +1,12 @@
 # SkyVault
 Encrypt/Decrypt files with Node
 
-Install
+## Install
 
 git clone github.com/aakashpandey/skyvault
 cd skyvault
 npm install
 
-Use
+## Use
 
 node main.js
