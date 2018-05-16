@@ -2,7 +2,7 @@
 Encrypt/Decrypt files with Node
 
 ## Install
-git clone github.com/aakashpandey/skyvault
+git clone https://github.com/aakashpandey/skyvault
 
 cd skyvault
 
