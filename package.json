@@ -1,0 +1,21 @@
+{
+  "name": "skyvault",
+  "version": "1.0.1",
+  "description": "Encrypt/Decrypt files quickly",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/aakashpandey/skyvault"
+  },
+  "keywords": [
+    "Encryption"
+  ],
+  "author": "Aakash Pandey",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
