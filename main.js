@@ -34,7 +34,7 @@ var vault = () => {
         const output = fs.createWriteStream(file+'.enc');
         input.pipe(cipher).pipe(output);
         console.log(`Encrypted successfully to ${file}.enc`);
-        console.log('\nNote: Remeber the key & feel free to delete the source file.\n')
+        console.log('\nNote: Remember the key & feel free to delete the source file.\n')
     } else if(op==="unvault" || op==="uv") {
         file = file.split(".");
         const decipher = crypto.createDecipher('aes192', key);
